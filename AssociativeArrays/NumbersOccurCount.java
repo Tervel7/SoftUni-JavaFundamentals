@@ -15,12 +15,6 @@ public class NumbersOccurCount {
             } else {
                 int j = numbersOccur.get(d);
                 numbersOccur.put(d, j + 1);
-//                for(Map.Entry<Double, Integer> entry :numbersOccur.entrySet()) {
-//                    if (entry.getKey()==d) {
-//                        int i = entry.getValue();
-//                        numbersOccur.put(d, i+1);
-//                        break;
-//                    }
             }
         }
 
